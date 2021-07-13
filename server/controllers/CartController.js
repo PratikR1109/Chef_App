@@ -2,8 +2,8 @@ const { Cart } = require("../models/cart");
 const { Order } = require("../models/order");
 const { User } = require("../models/users");
 
-var Publishable_Key = 'pk_test_51Ho8xyBPoN56sAitb9EaMkXxugLcqL9g57Zg1evH6ymQH9I0fHOlske3AN8kvE6gz44YFkRrCAXNfVgg36JgInGa00gmjy1PpI';
-var Secret_Key = 'sk_test_51Ho8xyBPoN56sAitBtEbPbmaxOoTJoxUFdYS043A1hZxXSy9me4ztVkPawvvOn6rKkjBLcUxaz9pHRaXg7LSBjvD0055LtADOu';
+var Publishable_Key = '';
+var Secret_Key = '';
 const stripe = require('stripe')(Secret_Key);
 const { v4: uuidv4 } = require('uuid');
 const { MasterClass } = require("../models/masterClass");
